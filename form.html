@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <nav class="navbar navbar-expand-sm navbar light bg-light">
+    <a href="#" class="navbar-brand mb-0 h1">
+      Belle Vie Moments
+    </a>
+    <button
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      class="navbar-toggler"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a href="home.html" class="nav-link"> About Me </a>
+        </li>
+        <li class="nav-item active">
+          <a href="table.html" class="nav-link"> Pricing </a>
+        </li>
+        <li class="nav-item active">
+          <a href="#" class="nav-link"> Get a quote</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+      <div class="container">
+          <div class="py-5 text-center">
+            <h2>Quote form</h2>
+            <p class="lead">Below is an example form build entirely with boothstrap</p>
+          </div>
+      </div>
+
+      <div class="container">
+        <h4 class="mb-3">Request a Quote</h4>
+        <form novalidate>
+            <div class="row g-3">
+            <div class="col-sm-6">
+            <label for="firstname" class="form-label">First Name</label>
+            <input id="firstName" type="text" class="form-control" placeholder="Belle" required>
+            <div class="invalid-feedback">Valid first name is required.
+        </div>
+    </div>
+        <div class="col-sm-6">
+        <label for="lastname" class="form-label">Last Name</label>
+        <input id="lastName" type="text" class="form-control" placeholder="Gallegos" required>
+        <div class="invalid-feedback">Valid last name is required.
+            </div>
+        </div>
+        <div class="col-12">
+            <label for="email" class="form-label">Email</label>
+            <input id="firstName" type="text" class="form-control" placeholder="enter@email.com" required>
+            <div class="invalid-feedback">Valid email is required.
+
+        </div>
+        </div>
+    </form>
+</div>
+
+<div class="col-12">
+   
+        <div class="col-md-8 col-sm-12">
+            <div class="comment-wrapper">
+                <div class="panel panel-info">
+                    <div class="panel-heading"><br>
+                        Let me know what you're looking for. 
+                    </div>
+                    <div class="panel-body">
+                        <textarea class="form-control" placeholder="write a comment..." rows="3"></textarea>
+                        <br>
+                        <button type="button" class="btn btn-secondary pull-right">Submit</button>
+                        <div class="clearfix"></div>      
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
